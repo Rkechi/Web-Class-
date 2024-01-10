@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+nav .logo{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav .logo .dot, .hero .dot{
+    color: goldenrod;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+/* nav ul li a:active{
+    color: goldenrod;
+} */
+nav ul li a.active{
+    color: goldenrod;
+}
+.get {
+    border: 2px solid goldenrod;
+    padding: 8px;
+}
+.get a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.hero{
+    margin-top: -3%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/pexels-joshua-welch-1624600.jpg');
+    background-size: cover;
+    background-repeat: none;
+    color: white;
+    padding: 80px;
+}
+.hero .first{
+    text-align: center;
+}
+.hero .second{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+.hero .second .icn{
+    border: 1px solid white;
+    padding: 30px;
+    text-align: center;
+}
+.hero .second .fa-briefcase{
+    font-size: 30px;
+    color: goldenrod;
+}
+.hero .second p{
+    font-weight: 700px;
+    font-size: 30px;
+}

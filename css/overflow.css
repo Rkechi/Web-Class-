@@ -1,0 +1,24 @@
+.parent{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px 15px grey;
+    height: 300px;
+    margin-top: 3%;
+    overflow-y: auto;
+}
+.two{
+    padding: 5px;
+    border: 6px solid green;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    overflow-x: auto;
+}
+.two img{
+    width: 150%;
+    height: 300px;
+}

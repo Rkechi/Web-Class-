@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+}
+.hero{
+    background: linear-gradient(red, black);
+    padding: 100px;
+    text-align: center;
+    color: white;
+}
+.hero h1{
+    font-size: 40px;
+    padding: 30px;
+    font-family: cursive;
+    letter-spacing: 3px;
+}
+.hero button{
+    width: 30%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 5px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+.parent{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.parent div{
+    width: 30%;
+    height: 300px;
+}
+div .one{background-color: aqua;}
+div .two{background-color: purple;}
+div .three{background-color: goldenrod;}
+.first{padding: 10px;}
+.first .p1{
+    font-size: 30px;
+    color: red;
+}
+.first .p2{
+    font-size: 30px;
+    color: blue;
+}
+
+
+
+/*responsive*/
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: rgb(78, 30, 30);
+    }
+    .hero h1{
+        font-size: 20px;
+        padding: 50px;
+        font-family: cursive;
+        /* letter-spacing: 3px; */
+    }
+    .hero button{
+        width: 90%;
+        padding: 5px;
+        font-size: 12px;
+        border-radius: 20px;
+        border: 2px solid white;
+        background-color: transparent;
+        color: white;
+        font-weight: bold;
+    }
+    .parent{
+        /* display: flex; */
+        flex-direction: column;
+    
+    }
+    .parent div{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    div .two, div .three{ display: none;}
+    .first .p1{
+        font-size: 15px;
+        color: white;
+    }
+    .first .p2{
+        font-size: 15px;
+        color: white;
+    }
+    
+}
+
+@media only screen and (min-width: 601px) and (max-width: 875px){
+    body{
+        background-color: blue;
+    }
+    .hero button{
+        width: 90%;
+        padding: 5px;
+        font-size: 15px;
+        border-radius: 20px;
+        border: 2px solid white;
+        background-color: transparent;
+        color: white;
+        font-weight: bold;
+    }
+    .hero h1{
+        font-size: 25px;
+        padding: 50px;
+        font-family: cursive;
+        /* letter-spacing: 3px; */
+    }
+    
+}

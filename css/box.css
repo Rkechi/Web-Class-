@@ -1,0 +1,56 @@
+.parent{
+    border: 1px solid red;
+    display: flex;
+    /* background: url('../img/pexels-joshua-welch-1624600.jpg'); */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('../img/pexels-joshua-welch-1624600.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parent .box{
+    width: 20%;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    /* float: left; */
+
+}
+.parent .box1{
+    background-color: blue;
+    color: white;
+}
+.parent .box2{
+    background: linear-gradient(45deg, red, blue);
+    color: white;
+}
+.parent .box3{
+    background-color: blue;
+    opacity: 0.3;
+    color: white;
+}
+.parent .box2:hover{
+    opacity: 1.0;
+    cursor: pointer;
+    width: 2000px;
+}
+.parent .box3:hover{
+    opacity: 1.0;
+    cursor: pointer;
+    width: 2000px;
+}
+.parent .box1:hover{
+    opacity: 1.0;
+    cursor: pointer;
+    width: 2000px;
+}
+.chad{
+    color: red;
+}
+span{
+    color: blue;
+}
+#hen{
+    color: purple;
+}
+.chick{
+    color: yellow;
+}

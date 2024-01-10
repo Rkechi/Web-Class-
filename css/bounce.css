@@ -1,0 +1,39 @@
+.container{
+    margin: 5%;
+    display: flex;
+}
+.container .one, .container .two{
+    width: 50%
+}
+.container .one div, .container .two div{
+    width: 50%;
+    height: 300px;
+    margin: 10px;
+    border-radius: 80%;
+}
+.container .one div{
+    animation: bounce 0.5s infinite alternate;
+}
+.container .two div{
+    animation: bounce2 0.5s infinite alternate;
+}
+@keyframes bounce{
+    0%{
+        transform: translateY(100px);
+        background-color: green;
+    }
+    100%{
+        transform: translateY(-150px);
+        background-color: blue;
+    }
+}
+@keyframes bounce2{
+    0%{
+        transform: translateX(150);
+        background-color: orangered;
+    }
+    100%{
+        transform: translateX(-150px);
+        background-color: rgb(255, 0, 136);
+    }
+}

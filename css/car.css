@@ -1,0 +1,70 @@
+/* body{
+    margin: 0;
+}
+.bg{
+    position: relative;
+    background: url('../img/city.jpg');
+    height: 44vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    animation: car 1s linear infinite;
+}
+.car{
+    position: absolute;
+    bottom: -78px;
+}   
+@keyframes car{
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 0;
+    }
+} */
+
+
+
+/* Moving car */
+body{
+    margin: 0;
+}
+.bg{
+    position: relative;
+    background: url('../img/city.jpg');
+    height: 44vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+   
+}
+.car{
+    position: absolute;
+    bottom: -78px;
+    animation: car 1s linear infinite;
+    left: 0;
+}   
+@keyframes car{
+    from{
+        left: 0;
+    }
+    to{
+        left: 100%;
+    }
+}
+
+.second{
+    margin-top: 5%;
+}
+.zoom{
+    width: 15%;
+    height: 200px;
+    margin-left: 30%;
+    border: 6px solid yellow;
+    border-radius: 50%;
+    transition: 3s ease;
+}
+.zoom:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}

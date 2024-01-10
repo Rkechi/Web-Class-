@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: #046437;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px 0px 40px;
+}
+nav .logo{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+}
+nav .logo .dot{
+    color: orangered;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li .active{
+    border-bottom: 3px solid orangered;
+}
+
+/* hero section */
+.hero{
+    background-color: #046437;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+.hero .first{
+    color: white;
+    width: 50%;
+    padding: 10px;
+}
+.hero .second{
+    width: 50%;
+}
+.hero .second img{
+    width: 60%;
+    height: 300px;
+}
+.hero .first h1{
+    font-size: 40px;
+}
+.hero .first p{
+    font-size: 20px;
+    color: rgb(184, 167, 167);
+    margin-bottom: 5%;
+}
+.hero .first .get{
+    width: 15%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(5, 156, 86, 0.732);
+    border: 1px solid rgba(7, 107, 60, 0.732);
+}
+.hero .first .vid{
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.hero .first .get:hover{
+    background: white;
+    color:rgba(5, 156, 86, 0.732);
+    cursor: pointer;
+}
+.hero .first .vid:hover{
+    cursor: pointer;
+}
+.parent{
+    /* height: 100px;
+    width: 400px; */
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 80px;
+    position: relative;
+    bottom: 150px;
+    justify-content: center;
+}.box{
+    /* border: 1px solid green; */
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 15px;
+    margin-right: 80px;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 200px;
+    background-color: #034718;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    
+    
+}

@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+.container .one{
+    padding: 25px;
+    background-color: rgba(7, 52, 68, 0.698);
+    color: white;
+}
+.container .one .a1 img{
+    width: 160px;
+    height: 170px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+.container .one .a2, .container .one .a3{
+    margin-top: 50px;
+}
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-google-plus, .fa-youtube, .fa-wifi{
+    font-size: 15px;
+    padding: 4px;
+}
+.two .a1{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/daniel-reyes-rxI8rzF_rm8-unsplash.jpg');
+    padding: 150px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2%;
+}
+.two .a2{
+    padding: 40px;
+}
+.two .a2 img{
+    width: 100%;
+    height: 600px;
+}
+.two .a2 .p1 .two .a3 .p1{
+    font-weight: bold;
+    columns: black;
+}
+.two .a2 p, .two .a3 p{
+    font-weight: bold;
+    color: rgb(171, 168, 168);
+}
+/* .container .two{
+    border: 1px solid red;
+
+} */
